@@ -54,7 +54,7 @@ const Home = ({ darkMode, toggleDarkMode }) => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
         >
-          TicTacGo
+          TicTacGo - Pro
         </motion.h1>
         
         <div className="flex items-center gap-4">
@@ -92,7 +92,7 @@ const Home = ({ darkMode, toggleDarkMode }) => {
             transition={{ duration: 0.5 }}
           >
             <h2 className="text-2xl font-bold text-center mb-8">
-              Welcome to TicTacGo
+              Welcome to TicTacGo - Pro
             </h2>
             
             <motion.div 
@@ -158,7 +158,7 @@ const Home = ({ darkMode, toggleDarkMode }) => {
       
       {/* Footer */}
       <footer className="py-4 border-t border-surface-200 dark:border-surface-800 text-center text-sm text-surface-500 dark:text-surface-400">
-        <p>&copy; {new Date().getFullYear()} TicTacGo. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} TicTacGo - Pro. All rights reserved.</p>
       </footer>
     </div>
   );

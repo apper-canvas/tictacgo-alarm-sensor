@@ -6,6 +6,6 @@ plugins: [react()],
 server: {
      allowedHosts: true,
      host: true,
-strictPort: true,
+     strictPort: true,
 port: 5173
 }})
